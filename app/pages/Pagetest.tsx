@@ -4,7 +4,7 @@ function Pagetest() {
   return (
     <>
 
-<div className="max-w-5xl mx-auto">
+<div className="max-w-5xl mx-auto p-8">
 
     <div id="default-carousel" className="relative" data-carousel="static">
         <div className="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-120">
@@ -149,12 +149,9 @@ function Pagetest() {
     </div>
 
     <p className="mt-5">
-        This carousel slider component is part of a larger, open-source library of Tailwind CSS components. Learn more
-        by going to the official
         <a className="text-blue-600 hover:underline" href="https://flowbite.com/docs/getting-started/introduction/"
             target="_blank">
-            Flowbite Documentation
-        </a>.
+        </a>
     </p>
     <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
 </div>
